@@ -27,14 +27,14 @@
         <h3>I build life changing projects</h3>
         <a href="#projects" class="main-btn">View my work</a>
         <div class="social-icons">
-          <a href="https://www.instagram.com/maho0_12?igsh=MTg5ZmxjdWVzeG5ieA=="
+          <a href="https://www.instagram.com/maho0_12?igsh=MTg5ZmxjdWVzeG5ieA==" target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="https://www.facebook.com/mahmoud.almuhammad.56"
+          <a href="https://www.facebook.com/mahmoud.almuhammad.56" target="_blank"
             ><i class="fab fa-facebook"></i
           ></a>
           <a href="#"><i class="fab fa-tiktok"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a> 
         </div>
       </div>
     </section>
@@ -86,10 +86,10 @@
             <img src="images/arkaPlan.webp" />
           </div>
           <div class="project-info">
-            <p class="project-categry">script writing & video</p>
+            <p class="project-categry">Admiral sank</p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">more details</a>
+              <span>Oyunlar</span>
+              <a href="https://github.com/mahmut0412/Amiral-Batt-oyunu" class="more-details" target="_blank">more details</a>
             </strong>
           </div>
         </div>
@@ -98,10 +98,10 @@
             <img src="images/arkaPlan.webp" />
           </div>
           <div class="project-info">
-            <p class="project-categry">script writing & video</p>
+            <p class="project-categry">Admiral sank</p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">more details</a>
+              <span>Oyunlar</span>
+              <a href="https://github.com/mahmut0412/Amiral-Batt-oyunu" class="more-details" target="_blank">more details</a>
             </strong>
           </div>
         </div>
@@ -110,10 +110,10 @@
             <img src="images/arkaPlan.webp" />
           </div>
           <div class="project-info">
-            <p class="project-categry">script writing & video</p>
+            <p class="project-categry">Admiral sank</p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">more details</a>
+              <span>Oyunlar</span>
+              <a href="https://github.com/mahmut0412/Amiral-Batt-oyunu" class="more-details" target="_blank">more details</a>
             </strong>
           </div>
         </div>
@@ -122,10 +122,10 @@
             <img src="images/arkaPlan.webp" />
           </div>
           <div class="project-info">
-            <p class="project-categry">script writing & video</p>
+            <p class="project-categry">Admiral sank</p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">more details</a>
+              <span>Oyunlar</span>
+              <a href="https://github.com/mahmut0412/Amiral-Batt-oyunu" class="more-details" target="_blank">more details</a>
             </strong>
           </div>
         </div>
@@ -134,10 +134,10 @@
             <img src="images/arkaPlan.webp" />
           </div>
           <div class="project-info">
-            <p class="project-categry">script writing & video</p>
+            <p class="project-categry">Admiral sank</p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">more details</a>
+              <span>Oyunlar</span>
+              <a href="https://github.com/mahmut0412/Amiral-Batt-oyunu" class="more-details" target="_blank">more details</a>
             </strong>
           </div>
         </div>

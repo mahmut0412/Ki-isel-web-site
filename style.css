@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* body {
+    font-size: 62px; // 1em = 62px ama asılda 1em = 16px
+}*/
+
+header {
+    background-color: #4b3c3c;
+    width: 100%; /*Sayfanın genişliğin tamamı*/
+    position: fixed; /*header kısmını sabitler*/
+    z-index: 999; /*لما أقلب بالموقع بيخللي قسم هيدار هوا اللي مبين اكتر ومابيخللي اشي يغطي فوقو*/
+    display: flex;
+    justify-content: space-between; /*Header kısmı elemanların arasındaki alan eşit bişekil bölüyor*/
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none; /*tsxtin altındaki çizgi kaldırır*/
+    color :white;
+    text-transform: uppercase; /*harfleri büyük yapar*/
+    font-weight: 700;/*Textin kalınlığı*/
+    font-size: 1.8em;/*Textin boyutu  1em = 16px*/
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color :rgb(155, 155, 155);
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+.navigation a:hover { /*hover yani her hangi a linkine işaret ettiğinde bu işlemleri yap*/
+    color :white;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh; /*yükseklik en az 100 olur*/
+    display: flex;
+    align-items: center;
+    background: url(images/mahmud.png) no-repeat /*fotoğraf tekrarı yok*/;
+    background-size: cover; /*fotoğrafın tamamı main kısımın üsütüne yerleştirelecek*/
+    background-position: center; /*fotoğrafı ortada yerleştiriyor*/
+    /* background-attachment: fixed; siteyi yukarıya çekerken fotoğraf sabit kalıyor*/
+
+}
+
+.main h2 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block; /*span inline-block yapmayı margin kullanmak için*/
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px; /*kelimeler arasındaki boşluklar*/
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #7e40e9;
+    color: rgb(201, 201, 201);
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease; /*عملية التحول عند الضغط على الزر بتم ب 07 ثانية */
+}
+
+.main-btn:hover {
+    background-color: #6616f0;
+    color :#fff;
+    transform: scale(1.1); /*button üzerine işaret ettiğinde button hacmi büyülür fonk x ve y alır (X,Y)*/
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    margin-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /*Elemanları yan yana mı alt alta mı*/
+    flex-wrap: wrap; /*Elemanları sığmazsa alta iniyorular nonwrap elemanların sizei küçüklecekti*/   
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    /*kutunun gölgesi 0 : üst - alt taraf // 5px : sağ - sol, sol ise -5px*/
+    /*25px : gölgenin boyutu // 15% : gölgenin şeffaflığı*/
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    text-align: center;
+    font-size: 8em;
+    color: #3a6cf4;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #000016;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 5px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden; /*cartın dışına çıkan parçayı saklar*/
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-card:hover .image {
+    opacity: 0.9;
+}   
+
+.image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-categry {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover {
+    color: #601cfc;
+}
+
+.Contact h3 {
+    color: #000016;
+}
+
+.Contact .icon {
+    font-size: 4.5em;
+}
+
+.Contact p {
+    font-size: auto;
+}
+
+.end {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.end-title span {
+    color: #3a6cf4;
+}
+
+.end .social-icons a {
+    font-size: 1.3em;
+    padding-right: 12px;
+}
+
+@media (max-width:1023px) {
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+    }
+}
